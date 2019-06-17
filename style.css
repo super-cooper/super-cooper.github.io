@@ -15,12 +15,17 @@ a {
 }
 
 .navbar a {
+    background: #263238;
     float: left;
     text-align: center;
     width: 24.79%;
     color: #FFFFFF;
     border: 1px solid #212C31;
     padding: 15px 1px;
+}
+
+.navbar a:hover {
+    background: #29353B;
 }
 
 #nameplate {
