@@ -18,9 +18,10 @@ a {
     background: #263238;
     float: left;
     text-align: center;
-    width: 24.79%;
+    width: 25%;
     color: #7F8C8E;
-    border: 1px solid #212C31;
+    outline: 1px solid #212C31;
+    margin: -2px;
     padding: 15px 1px;
 }
 
