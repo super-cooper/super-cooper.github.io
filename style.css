@@ -1,0 +1,43 @@
+body {
+    background: #29353B;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar nav {
+    font-family: "Roboto Medium", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    width: 25%;
+    color: #FFFFFF;
+    /*border: 2px solid #212C31;*/
+}
+
+#nameplate {
+    font-family: "Roboto Thin", "Roboto Light", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    font-size: 4vw;
+}
+
+#findme {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#findme a {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
