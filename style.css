@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+.navbar {
+    position: fixed;
+}
+
 .navbar nav {
     font-family: "Roboto Medium", sans-serif;
     padding-bottom: 20px;
