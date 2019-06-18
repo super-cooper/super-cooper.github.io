@@ -1,17 +1,23 @@
 body {
     background: #29353B;
-    margin: 0;
-    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-.navbar nav {
+.navbar {
+    padding: 0;
+}
+
+.navbar header {
     font-family: "Roboto Medium", sans-serif;
     padding-bottom: 20px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
 }
 
 .navbar a {
@@ -22,7 +28,7 @@ a {
     color: #7F8C8E;
     outline: 1px solid #212C31;
     margin: -2px;
-    padding: 15px 1px;
+    padding: 15px 0;
     animation-name: navbar-hover-fade-out;
     animation-duration: .25s;
 }
