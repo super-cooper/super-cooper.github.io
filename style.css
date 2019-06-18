@@ -23,11 +23,37 @@ a {
     outline: 1px solid #212C31;
     margin: -2px;
     padding: 15px 1px;
+    animation-name: navbar-hover-fade-out;
+    animation-duration: .25s;
 }
 
 .navbar a:hover {
     background: #29353B;
     color: #CAD8D7;
+    animation-name: navbar-hover-fade-in;
+    animation-duration: .25s;
+}
+
+@keyframes navbar-hover-fade-in {
+    from {
+        background: #263238;
+        color: #7F8C8E;
+    }
+    to {
+        background: #29353B;
+        color: #CAD8D7;
+    }
+}
+
+@keyframes navbar-hover-fade-out {
+    from {
+        background: #29353B;
+        color: #CAD8D7;
+    }
+    to {
+        background: #263238;
+        color: #7F8C8E;
+    }
 }
 
 #nameplate {
