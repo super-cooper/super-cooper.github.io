@@ -42,7 +42,7 @@ a {
     color: #CAD8D7;
 }
 
-.selected a {
+.navbar a.selected {
     background: #29353B;
     color: #CAD8D7;
     animation-name: none;
