@@ -46,6 +46,8 @@ a {
     background: #29353B;
     color: #CAD8D7;
     animation-name: none;
+    border-bottom: #00BCD4 2px solid;
+    margin-right: 3px;
 }
 
 .navbar a:hover {
