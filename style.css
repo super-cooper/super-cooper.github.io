@@ -24,13 +24,18 @@ a {
     background: #263238;
     float: left;
     text-align: center;
-    width: 25%;
+    width: 20%;
     color: #7F8C8E;
     outline: 1px solid #212C31;
     margin: -2px;
     padding: 15px 0;
     animation-name: navbar-hover-fade-out;
     animation-duration: .25s;
+}
+
+.text a {
+    font-weight: bold;
+    color: #CAD8D7;
 }
 
 .navbar a:hover {
@@ -80,3 +85,17 @@ a {
     text-align: center;
     width: 33%;
 }
+
+.text p {
+    padding-top: 80px;
+    font-family: Roboto, sans-serif;
+    color: #CAD8D7;
+    z-index: 10000;
+    word-wrap: break-word;
+    line-height: 200%;
+}
+
+.text p#aboutme {
+    margin: 80px;
+}
+
