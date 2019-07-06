@@ -1,3 +1,7 @@
+title::after {
+    content: ' - Adam Cooper';
+}
+
 body {
     background: #29353B;
 }
@@ -36,6 +40,12 @@ a {
 .text a {
     font-weight: bold;
     color: #CAD8D7;
+}
+
+.selected a {
+    background: #29353B;
+    color: #CAD8D7;
+    animation-name: none;
 }
 
 .navbar a:hover {
@@ -98,4 +108,3 @@ a {
 .text p#aboutme {
     margin: 80px;
 }
-
