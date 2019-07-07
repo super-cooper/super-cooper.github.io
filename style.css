@@ -56,6 +56,12 @@ a {
     animation-name: none;
     border-bottom: #00BCD4 2px solid;
     margin-right: 3px;
+    background: #29353B;
+    color: #CAD8D7;
+}
+
+.navbar a.selected:hover {
+    animation-name: none;
 }
 
 h3.introduction a {
@@ -152,4 +158,11 @@ h3.introduction a {
     font-size: 16px;
     text-align: justify;
     line-height: 200%;
+}
+
+#email {
+    padding-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
