@@ -5,6 +5,8 @@ body {
 
 a {
     text-decoration: none;
+    color: #CAD8D7;
+    font-weight: bold;
 }
 
 ::-webkit-scrollbar {
@@ -50,22 +52,14 @@ a {
     animation-duration: .25s;
 }
 
-.answer a {
-    color: #CAD8D7;
-    font-weight: bold;
-}
-
-.text a {
-    font-weight: bold;
-    color: #CAD8D7;
-}
-
 .navbar a.selected {
-    background: #29353B;
-    color: #CAD8D7;
     animation-name: none;
     border-bottom: #00BCD4 2px solid;
     margin-right: 3px;
+}
+
+h3.introduction a {
+    font-weight: bolder;
 }
 
 .navbar a:hover {
