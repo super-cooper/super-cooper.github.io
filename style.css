@@ -6,6 +6,22 @@ a {
     text-decoration: none;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #29353B;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222D32;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7F8C8E;
+}
+
 .navbar {
     padding: 0;
 }
