@@ -1,5 +1,6 @@
 body {
     background: #29353B;
+    font-family: Roboto, sans-serif;
 }
 
 a {
@@ -117,7 +118,6 @@ a {
 
 .text p {
     padding-top: 80px;
-    font-family: Roboto, sans-serif;
     color: #CAD8D7;
     z-index: 10000;
     word-wrap: break-word;
@@ -133,7 +133,6 @@ a {
     padding-top: 80px;
     text-align: center;
     color: #CAD8D7;
-    font-family: Roboto, sans-serif;
 }
 
 #q-and-a {
@@ -156,7 +155,6 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 40px;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     text-align: justify;
     line-height: 200%;
